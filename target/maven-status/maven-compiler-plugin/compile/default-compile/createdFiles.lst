@@ -1,0 +1,7 @@
+ru\liga\translator\service\rule\RuleOne.class
+ru\liga\translator\TranslatorApp.class
+ru\liga\translator\service\rule\RuleTwo.class
+ru\liga\translator\service\rule\RuleFour.class
+ru\liga\translator\service\rule\RuleThree.class
+ru\liga\translator\service\TranslateService.class
+ru\liga\translator\service\DictionaryFromFileService.class
