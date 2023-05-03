@@ -30,7 +30,7 @@ public class DictionaryFromFileService {
 
         InputStream inputStream = RuleFour.class.getClassLoader().getResourceAsStream(fileName);
         if (inputStream == null) {
-            log.error("File not found " + fileName);
+            log.error("Файл не найден " + fileName);
         }
         try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8))) {
             String str;
